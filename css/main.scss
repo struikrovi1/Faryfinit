@@ -1,0 +1,190 @@
+@import"_header";
+@import"_footer";
+@import"_about";
+
+
+#main-home-page{
+    background-color: $color1;
+     background-image: url(https://2.bp.blogspot.com/-fuIIdIPLLhI/X3VfqHEybZI/AAAAAAAAB5Y/xseVOjKw3bk0ArNHQrwBgLpGGbX7YqiXQCK4BGAYYCw/s1600/Ilustracion-01.png);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: top right;
+     padding: 250px 0 250px;
+     height: 100%;
+     width: 100%;
+    
+ 
+     .home-page-text{
+         padding-top: 30%;
+         span{
+             padding: 8px 24px;
+     color: #1b164e;
+     background-color: #ffdb45;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 1;
+     letter-spacing: 1px;
+     text-align: center;
+     border: 0px solid rgba(0, 0, 0, 0);
+     border-radius: 15px;
+     
+         }
+         h3{
+             margin-top: 25px;
+     margin-bottom: 25px;
+     font-size: 55px;
+     font-weight: 700;
+     color: white;
+     line-height: 70px;
+     
+         }
+         p{
+             font-size: 19px;
+     color: #ffffffa8;
+     line-height: 35px;
+ 
+         }
+ 
+         .home-button-s{
+             button{
+                 color: white;
+ background-color: $color2;
+ border: none;
+ transition: all .2s ease-in-out;
+ padding: 14px 30px;
+ border-radius: 25px;
+ border:2px solid $color2;
+ font-size: 15px;
+ font-weight: bold;
+ transition: 0.3s ease-in-out;
+ cursor: pointer;
+ 
+ &:hover{
+ background-color: #007bff;
+ border: 2px solid#007bff ;
+ box-shadow: rgba(71, 99, 192, 0.25) 0px 54px 55px, rgba(26, 116, 190, 0.623) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(46, 103, 156, 0.17) 0px 12px 13px, rgba(63, 99, 133, 0.479) 0px -3px 5px;
+ }
+             }
+ 
+             i{
+                 font-size: 50px;
+                 margin-left: 20px;
+                 margin-right: 10px;
+                 transition: 0.3s ease-in-out;
+                 cursor: pointer;
+                 color: white;
+                 &:hover{
+                     color: $color2;
+               
+                border:none;
+                border-radius: 50%;
+                
+ 
+                 }
+ 
+             }
+             h5{
+                 margin-top: 3px;
+                 color: white;
+                 cursor: pointer;
+             }
+         }
+     }
+     
+ 
+ }
+ 
+ #h-service{
+     background-color: $color1;
+     background-image: url(https://1.bp.blogspot.com/-a4D6ZT2LNd4/X3oipW-vOCI/AAAAAAAAB9k/MF1uksqPKLIPTvfsU2ZZkfVZrxi1U_eFgCK4BGAYYCw/s1600/Recurso%2B44.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top left;
+     padding: 250px 0 250px;
+     width: 100%;
+     height: 100%;
+     position: relative;
+
+ 
+     .service-top-text{
+         span{
+             padding: 8px 24px;
+     color: #1b164e;
+     background-color: #ffdb45;
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 1;
+     letter-spacing: 1px;
+     text-align: center;
+     border: 0px solid rgba(0, 0, 0, 0);
+     border-radius: 15px;
+     transition: 0.3s ease-in-out;
+
+    
+     
+         }
+         h3{
+             margin-top: 25px;
+     margin-bottom: 25px;
+     font-size: 40px;
+     font-weight: 700;
+     color: white;
+     line-height: 50px;
+     
+         }
+         p{
+             font-size: 19px;
+     color: #ffffffa8;
+     line-height: 35px;
+ 
+         }
+ 
+     }
+ 
+ 
+ 
+     .box{
+         text-align: center;
+         background-color: #231d65;
+         border-radius: 9px;
+     border: 0px solid #261f6f;
+     box-shadow: 0px 9px 25px 0px #171347;
+     padding: 20px 0 20px 0;
+     transition: 0.3s ease-in-out;
+     margin-bottom: 25px;
+     &:hover{
+        transform: translateY(-5px);
+
+    }
+ 
+     h3{
+         color: white;
+         padding: 0;
+         margin: 0;
+         font-size: 20px;
+     }
+     i{
+     padding: 20px;
+     color: #ffffff;
+     background-color: #67cdff;
+     border: 0px solid rgba(0, 0, 0, 0);
+     border-radius: 67px;
+     text-align: center;
+     font-size: 20px;
+     margin-bottom: 20px;
+     }
+     p{
+         font-size: 20px;
+         color: rgba(255, 255, 255, 0.658);
+         margin-top: 10px;
+     }
+     }
+ 
+     
+     
+     
+     
+ }
+ 
+
+ @import"_responsive";

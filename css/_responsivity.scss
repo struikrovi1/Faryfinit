@@ -1,0 +1,131 @@
+@media (max-width: 576px) {
+
+
+    
+  }
+
+@media (max-width: 768px) {
+
+
+
+    #about-home{
+
+        .post-header-top{
+            position: absolute;
+            top: 40%;
+            left: 33%;
+        }
+        .main-text-about{
+               
+            position: absolute;
+            top: 45%;
+            left: 24%;
+            h3 {
+                color: white;
+                font-size: 47px;
+                font-weight: 700;
+            }
+        }
+    }
+    #smallTeam{
+        padding: 5rem 0;
+        .team-top-text{
+            text-align: left;
+            h1{
+                font-size: 20px;
+            }
+            p{
+                width: 80%;
+            }
+        }
+    }
+  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 992px) {
+    #about-home{
+
+        .post-header-top{
+            position: absolute;
+            top: 40%;
+            left: 40%;
+        }
+        .main-text-about{
+               
+            position: absolute;
+            top: 45%;
+            left: 33%;
+            h3 {
+                color: white;
+                font-size: 53px;
+                font-weight: 700;
+            }
+        }
+    }
+
+
+  }
+
+  @media (max-width: 768px) {
+      
+    #smallTeam{
+       .service-side{
+           .box{
+               &.kr{
+                   display: none;
+               }
+           }
+       }
+    }
+
+  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+    #about-home{
+
+        .post-header-top{
+            position: absolute;
+            top: 40%;
+            left: 40%;
+        }
+        .main-text-about{
+               
+            position: absolute;
+            top: 45%;
+            left: 30%;
+            h3 {
+                color: white;
+                font-size: 63px;
+                font-weight: 700;
+            }
+        }
+    }
+ }
+
+
+ 
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    #about-home{
+
+        .post-header-top{
+            position: absolute;
+            top: 30%;
+            left: 43%;
+        }
+        .main-text-about{
+               
+            position: absolute;
+            top: 40%;
+            left: 35%;
+            h3 {
+                color: white;
+                font-size: 73px;
+                font-weight: 700;
+            }
+        }
+    }
+ }
